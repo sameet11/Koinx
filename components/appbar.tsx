@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Appbar = () => {
   return (
-    <div className="flex justify-between p-5 shadow-md">
+    <div className="flex justify-between p-5 shadow-lg">
       <div
         className="mt-2
       "
