@@ -14,4 +14,4 @@ const InrRender: React.FC<InrRenderProps> = ({ inrvalue }) => {
   );
 };
 
-export default InrRender;
+export default React.memo(InrRender);

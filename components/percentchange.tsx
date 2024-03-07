@@ -28,4 +28,4 @@ const PercentageChange: React.FC<PercentageChangeProps> = ({
   );
 };
 
-export default PercentageChange;
+export default React.memo(PercentageChange);

@@ -12,4 +12,4 @@ const DollarRender: React.FC<DollarRenderProps> = ({ dollarvalue }) => {
   );
 };
 
-export default DollarRender;
+export default React.memo(DollarRender);
