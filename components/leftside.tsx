@@ -5,10 +5,11 @@ import Navbar from "./navbar";
 import Sentiment from "./sentiment";
 import About from "./Aboutbtc";
 import Tokenomics from "./tokenomics";
+import Team from "./team";
 const Leftside = () => {
   return (
     <div className="w-4/6 mt-3 overflow-auto">
-      <div className="text-gray-600 text-sm mb-3">
+      <div className="text-gray-600 text-sm mb-3 font-semibold">
         Cryptocurrencies &gt;&gt;<span className="text-black"> Bitcoin</span>
       </div>
       <div className="mt-3 bg-white p-1 rounded-lg">
@@ -29,6 +30,9 @@ const Leftside = () => {
       </div>
       <div className="mt-5">
         <Tokenomics />
+      </div>
+      <div className="mt-5">
+        <Team />
       </div>
     </div>
   );

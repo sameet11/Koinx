@@ -8,7 +8,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="flex justify-between text-sm border-b-2 border-gray-300 z-0">
+      <div className="flex justify-between text-sm border-b-2 border-gray-300 z-0 font-semibold">
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Overview"

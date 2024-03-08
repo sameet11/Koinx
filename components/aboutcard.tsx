@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
-import { FaArrowRightLong } from "react-icons/fa6";
 import { FC } from "react";
+
+import Button from "./button";
 
 interface AboutCardProps {
   classname: string;
@@ -20,10 +21,7 @@ const AboutCard: FC<AboutCardProps> = ({ classname }) => {
         <div>
           <div className="text-white font-semibold text-xl">Calculate Your</div>
           <div className="text-white font-semibold text-xl">Profits</div>
-          <div className="flex bg-white gap-2 rounded-lg mt-2 pl-2 p-1 hover:bg-gray-200 transition duration-300 ease-out">
-            <button className="font-semibold">Check Now</button>
-            <FaArrowRightLong className="mt-1" />
-          </div>
+          <Button text="Check Now" classname="" />
         </div>
       </div>
     </div>

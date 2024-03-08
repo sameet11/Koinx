@@ -2,7 +2,7 @@ const AboutHeader = () => {
   return (
     <div className="mb-3">
       <div className="text-xl font-semibold">What is Bitcoin?</div>
-      <div>
+      <div className="text-base">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, totam
         inventore reprehenderit tempora harum est amet modi autem rerum
         provident magnam odio corporis a sit nam. Laboriosam, mollitia?

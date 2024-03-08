@@ -23,7 +23,7 @@ const TokenChart = () => {
           datasets: [
             {
               label: "My First Dataset",
-              data: [400, 200],
+              data: [400, 100],
               backgroundColor: ["rgb(54, 162, 235)", "rgb(255, 159, 64)"],
               hoverOffset: 3,
             },
@@ -43,7 +43,7 @@ const TokenChart = () => {
   return (
     <div className="w-1/2 mt-10">
       <div className="font-semibold text-xl">Initial Distribution</div>
-      <canvas ref={chartRef} width={90} height={90}></canvas>
+      <canvas ref={chartRef} width={70} height={70}></canvas>
     </div>
   );
 };

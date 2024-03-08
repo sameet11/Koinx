@@ -14,6 +14,8 @@ const Tokenomics = () => {
         reiciendis dicta facilis minima nam, provident sequi animi amet beatae
         numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
         vel molestias! Sint, ullam quia animi officia aut veritatis nam unde?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolore
+        possimus quae accusamus a ab quibusdam quo eaque laboriosam totam.
       </div>
     </div>
   );

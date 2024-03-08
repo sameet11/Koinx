@@ -2,7 +2,7 @@ import Fundamentals from "./fundamentals";
 import HighLow from "./highlow";
 const Performance = () => {
   return (
-    <div className="bg-white rounded-lg w-full p-3">
+    <div className="bg-white rounded-lg w-full p-3 font-semibold">
       <div className="text-2xl font-bold">Performance</div>
       <div className="mt-10">
         <HighLow
