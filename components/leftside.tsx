@@ -2,6 +2,7 @@ import TradingHeader from "./tradingheader";
 import TradingViewWidget from "./tradingview";
 import Performance from "./performane";
 import Navbar from "./navbar";
+import Sentiment from "./sentiment";
 const Leftside = () => {
   return (
     <div className="w-4/6 mt-3 overflow-auto">
@@ -17,6 +18,9 @@ const Leftside = () => {
       </div>
       <div className="mt-5">
         <Performance />
+      </div>
+      <div className="mt-5">
+        <Sentiment />
       </div>
     </div>
   );

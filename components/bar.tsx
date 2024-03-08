@@ -1,6 +1,9 @@
-const Bar = () => {
-  return (
-    <div className="h-1 bg-gradient-to-r from-red-400 via-orange-400  to-green-400 w-4/6 rounded-lg mt-3"></div>
-  );
+import { twMerge } from "tailwind-merge";
+import { FC } from "react";
+interface BarProps {
+  classname: string;
+}
+const Bar: FC<BarProps> = ({ classname }) => {
+  return <div className={twMerge("rounded-lg mt-3", classname)}></div>;
 };
 export default Bar;

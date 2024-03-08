@@ -12,7 +12,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Overview"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("Overview")}
@@ -22,7 +22,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Fundamentals"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("Fundamentals")}
@@ -32,7 +32,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "News Insights"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("News Insights")}
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Sentiments"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("Sentiments")}
@@ -52,7 +52,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Team"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("Team")}
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Technicals"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("Technicals")}
@@ -72,7 +72,7 @@ const Navbar = () => {
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Tokenomics"
-              ? "text-blue-700 border-b-2 border-blue-700"
+              ? "text-blue-800 border-b-2 border-blue-800 font-semibold"
               : "text-gray-700"
           }`}
           onClick={() => handleItemClick("Tokenomics")}
