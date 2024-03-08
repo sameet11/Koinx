@@ -3,6 +3,8 @@ import TradingViewWidget from "./tradingview";
 import Performance from "./performane";
 import Navbar from "./navbar";
 import Sentiment from "./sentiment";
+import About from "./Aboutbtc";
+import Tokenomics from "./tokenomics";
 const Leftside = () => {
   return (
     <div className="w-4/6 mt-3 overflow-auto">
@@ -21,6 +23,12 @@ const Leftside = () => {
       </div>
       <div className="mt-5">
         <Sentiment />
+      </div>
+      <div className="mt-5">
+        <About />
+      </div>
+      <div className="mt-5">
+        <Tokenomics />
       </div>
     </div>
   );
