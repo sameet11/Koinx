@@ -4,7 +4,7 @@ const AboutFooter = () => {
   return (
     <div className="mt-3">
       <div className="font-semibold text-2xl">Already Holding BTC?</div>
-      <div className="flex w-full gap-10 mb-3">
+      <div className="lg:flex-row flex flex-col w-full gap-10 mb-3">
         <AboutCard classname="bg-gradient-to-br from-green-400 to to-blue-400" />
         <AboutCard classname="bg-gradient-to-br from-orange-400 to to-orange-700" />
       </div>

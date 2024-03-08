@@ -9,7 +9,7 @@ interface AboutCardProps {
 }
 const AboutCard: FC<AboutCardProps> = ({ classname }) => {
   return (
-    <div className="mt-2 w-1/2">
+    <div className="mt-2 lg:w-1/2 w-full">
       <div className={twMerge("flex p-3 gap-10 rounded-lg", classname)}>
         <Image
           src={"/mobile-hand.jpg"}

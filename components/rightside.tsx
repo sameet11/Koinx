@@ -2,7 +2,7 @@ import GetStarted from "./getstarted";
 import Trending from "./trendingright";
 const Rightside = () => {
   return (
-    <div className="w-2/6 ml-5">
+    <div className="lg:w-2/6 lg:ml-5 hidden lg:block">
       <GetStarted />
       <Trending />
     </div>

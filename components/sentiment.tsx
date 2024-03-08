@@ -3,7 +3,7 @@ import Keyevents from "./keyevents";
 
 const Sentiment = () => {
   return (
-    <div className="p-1 mt-3 rounded-lg bg-white">
+    <div className="p-1 mt-3 rounded-lg bg-white pb-5">
       <div className="text-2xl font-bold p-2">Sentiments</div>
       <Keyevents />
       <Analysts />

@@ -16,12 +16,12 @@ const HighLow: FC<HighLowProps> = ({
 }) => {
   return (
     <div className="flex">
-      <div className="w-1/6">
+      <div className="md:w-1/6 w-fit">
         <div className="text-gray-500">{lowtext}</div>
         <div className="mt-2">{lowValue}</div>
       </div>
-      <Bar classname="h-1 bg-gradient-to-r from-red-400 via-orange-400  to-green-400 w-4/6 " />
-      <div className="w-1/6 text-right">
+      <Bar classname="h-1 bg-gradient-to-r from-red-400 via-orange-400  to-green-400 w-4/6" />
+      <div className="md:w-1/6 text-right w-fit">
         <div className="text-gray-500">{hightext}</div>
         <div className="mt-2">{highvalue}</div>
       </div>

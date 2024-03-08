@@ -10,7 +10,10 @@ const Keyevents = () => {
       </div>
       <div className="mt-4 flex justify-between">
         <Card classnamediv="bg-blue-100" classnameicon="bg-blue-700" />
-        <Card classnamediv="bg-green-100" classnameicon="bg-green-700" />
+        <Card
+          classnamediv="bg-green-100 hidden lg:block"
+          classnameicon="bg-green-700"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-
 const Navbar = () => {
   const [selectedItem, setSelectedItem] = useState<String>("Overview");
   const handleItemClick = (itemName: String) => {
@@ -8,7 +7,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="flex justify-between text-sm border-b-2 border-gray-300 z-0 font-semibold">
+      <div className="lg:flex justify-between text-sm border-b-2 border-gray-300 z-0 font-semibold hidden">
         <div
           className={`cursor-pointer z-10 ${
             selectedItem === "Overview"

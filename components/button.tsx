@@ -13,7 +13,7 @@ const Button: FC<ButtonProps> = ({ classname, text }) => {
         classname
       )}
     >
-      <button className="font-semibold">{text}</button>
+      <button className="font-semibold text-sm md:text-lg">{text}</button>
       <FaArrowRightLong className="mt-1" />
     </div>
   );
